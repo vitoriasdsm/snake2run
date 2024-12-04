@@ -1,0 +1,110 @@
+@charset "UTF-08";
+
+/* 
+*
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+body,
+main {
+    font-family: "Georgia", Helvetica, Arial, sans-serif;
+    background-image: url('/assets/parque\ 2.png');
+    /*background-color: #676bd9;
+    background: linear-gradient(to right, #ff0000, #676bd9);  Gradiente do vermelho para azul */
+    display: flex;
+    flex-direction: column;
+    min-width: 100vh;
+    align-items: center;
+    justify-content: center;
+
+}
+
+h1 {
+    font-family: "Lucida Console", Courier, monospace; /* Mude aqui */
+    font-size: 1.9em;
+    color: #ffffff;
+
+}
+
+canvas {
+    background-color: #6d71b4;
+    align-items: center;
+    border: 5px solid #262749;
+}
+
+.score {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.8rem;
+    color: #ffffff;
+
+}
+
+.score--value {
+    font-weight: 700;
+    font-size: 4.5rem;
+    display: block;
+    margin-top: -10px;
+}
+
+.menu-screen {
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+}
+
+.game-over {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 3rem;
+    color: #000010;
+}
+
+.final-score {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #f5efea;
+}
+
+.btn-play {
+    border: none;
+    border-radius: 100px;
+    padding: 10px 15px 10px 12px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #b6b2f6;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+footer {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #8183e3;
+    color: #f5efea;
+    min-width: 100vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+/*
+*
+*/
